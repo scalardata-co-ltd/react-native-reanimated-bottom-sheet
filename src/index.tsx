@@ -792,6 +792,7 @@ export default class BottomSheetBehavior extends React.Component<Props, State> {
   }
 
   render() {
+    console.log(this.props);
     const { borderRadius } = this.props
     return (
       <>
